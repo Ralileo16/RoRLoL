@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+CRC: 106300109
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ffcf3449ff88c33e5350d0047634703f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 63cc72860e0b5a073863146926d936a8
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Models/Prefabs/Trinity Force/Trinity_Force.prefab
+- Assets/Textures/Items/Trinity Force/Trinity_Force.png
+- Assets/Models/Raw Models/Trinity Force/Trinity_Force.fbx
+- Assets/Materials/Items/Trinity Force/Trinity_Force_Material.mat
+Dependencies: []

@@ -1,0 +1,136 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>preview</LangVersion>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Artifact\**" />
+	  <Compile Remove="Equipment\**" />
+	  <EmbeddedResource Remove="Artifact\**" />
+	  <EmbeddedResource Remove="Equipment\**" />
+	  <None Remove="Artifact\**" />
+	  <None Remove="Equipment\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="mod_assets" />
+	  <None Remove="mod_assets.manifest" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="mod_assets" />
+	  <EmbeddedResource Include="mod_assets.manifest" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="0Harmony">
+	    <HintPath>References\0Harmony.dll</HintPath>
+	  </Reference>
+	  <Reference Include="0Harmony20">
+	    <HintPath>References\0Harmony20.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Assembly-CSharp">
+	    <HintPath>References\Assembly-CSharp.dll</HintPath>
+	  </Reference>
+	  <Reference Include="BepInEx">
+	    <HintPath>References\BepInEx.dll</HintPath>
+	  </Reference>
+	  <Reference Include="BepInEx.Harmony">
+	    <HintPath>References\BepInEx.Harmony.dll</HintPath>
+	  </Reference>
+	  <Reference Include="BepInEx.MonoMod.HookGenPatcher">
+	    <HintPath>References\BepInEx.MonoMod.HookGenPatcher.dll</HintPath>
+	  </Reference>
+	  <Reference Include="BepInEx.MonoMod.Loader">
+	    <HintPath>References\BepInEx.MonoMod.Loader.dll</HintPath>
+	  </Reference>
+	  <Reference Include="BepInEx.Preloader">
+	    <HintPath>References\BepInEx.Preloader.dll</HintPath>
+	  </Reference>
+	  <Reference Include="com.unity.multiplayer-hlapi.Runtime">
+	    <HintPath>References\com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+	  </Reference>
+	  <Reference Include="HarmonyXInterop">
+	    <HintPath>References\HarmonyXInterop.dll</HintPath>
+	  </Reference>
+	  <Reference Include="HGCSharpUtils">
+	    <HintPath>References\HGCSharpUtils.dll</HintPath>
+	  </Reference>
+	  <Reference Include="MMHOOK_Assembly-CSharp">
+	    <HintPath>References\MMHOOK_Assembly-CSharp.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Mono.Cecil">
+	    <HintPath>References\Mono.Cecil.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Mono.Cecil.Mdb">
+	    <HintPath>References\Mono.Cecil.Mdb.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Mono.Cecil.Pdb">
+	    <HintPath>References\Mono.Cecil.Pdb.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Mono.Cecil.Rocks">
+	    <HintPath>References\Mono.Cecil.Rocks.dll</HintPath>
+	  </Reference>
+	  <Reference Include="MonoMod.RuntimeDetour">
+	    <HintPath>References\MonoMod.RuntimeDetour.dll</HintPath>
+	  </Reference>
+	  <Reference Include="MonoMod.Utils">
+	    <HintPath>References\MonoMod.Utils.dll</HintPath>
+	  </Reference>
+	  <Reference Include="R2API">
+	    <HintPath>References\R2API.dll</HintPath>
+	  </Reference>
+	  <Reference Include="R2API.Patcher">
+	    <HintPath>References\R2API.Patcher.dll</HintPath>
+	  </Reference>
+	  <Reference Include="R2API.RecalculateStats">
+	    <HintPath>References\R2API.RecalculateStats.dll</HintPath>
+	  </Reference>
+	  <Reference Include="RoR2">
+	    <HintPath>References\RoR2.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Unity.Postprocessing.Runtime">
+	    <HintPath>References\Unity.Postprocessing.Runtime.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Unity.TextMeshPro">
+	    <HintPath>References\Unity.TextMeshPro.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine">
+	    <HintPath>References\UnityEngine.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.AnimationModule">
+	    <HintPath>References\UnityEngine.AnimationModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.AssetBundleModule">
+	    <HintPath>References\UnityEngine.AssetBundleModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.CoreModule">
+	    <HintPath>References\UnityEngine.CoreModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.ParticleSystemModule">
+	    <HintPath>References\UnityEngine.ParticleSystemModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.PhysicsModule">
+	    <HintPath>References\UnityEngine.PhysicsModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.UI">
+	    <HintPath>References\UnityEngine.UI.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.UIModule">
+	    <HintPath>References\UnityEngine.UIModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="UnityEngine.UNETModule">
+	    <HintPath>References\UnityEngine.UNETModule.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Wwise">
+	    <HintPath>References\Wwise.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Zio">
+	    <HintPath>References\Zio.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>
