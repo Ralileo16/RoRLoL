@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 968479324
+CRC: 324061300
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 720b7d8a84e4e49c599cf110548e91a2
+    Hash: 6dd438fc2af5c871eba701b20f596d0a
   TypeTreeHash:
     serializedVersion: 2
     Hash: 63cc72860e0b5a073863146926d936a8
@@ -29,8 +29,8 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Models/Prefabs/Trinity_Force/Trinity_Force.prefab
 - Assets/Textures/Items/Trinity_Force/Trinity_Force.png
 - Assets/Models/Meshes/Trinity_Force/Trinity_Force.fbx
 - Assets/Materials/Items/Trinity_Force/Trinity_Force_Material.mat
+- Assets/Shaders/deferred/hgstandard.shader
 Dependencies: []

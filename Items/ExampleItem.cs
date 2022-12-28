@@ -44,15 +44,13 @@ namespace RoRLoL.Items
 
         public override ItemDisplayRuleDict CreateItemDisplayRules()
         {
-            return new ItemDisplayRuleDict();
 
-            /*ModLogger.Log(LogLevel.Error,"dadwadada");
             ItemBodyModelPrefab = ItemModel;
             var itemDisplay = ItemBodyModelPrefab.AddComponent<ItemDisplay>();
             itemDisplay.rendererInfos = ItemHelpers.ItemDisplaySetup(ItemBodyModelPrefab);
-            ItemDisplayRuleDict rules = new ItemDisplayRuleDict();
 
-            rules.Add("mdlCommandoDualies", new ItemDisplayRule[]
+            ItemDisplayRuleDict rules = new ItemDisplayRuleDict();
+            rules.Add("mdlCommandoDualies", new RoR2.ItemDisplayRule[]
             {
                 new ItemDisplayRule
                 {
@@ -65,7 +63,7 @@ namespace RoRLoL.Items
                 }
             });
 
-            return rules;*/
+            return rules;
         }
 
         public override void Hooks()
