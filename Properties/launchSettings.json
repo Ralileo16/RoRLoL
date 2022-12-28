@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "RoRLoL": {
+      "commandName": "Project",
+      "commandLineArgs": "Risk of Rain 2.exe\r\n--doorstop-enable\r\n--true\r\n--doorstop-target\r\n-- C:\\Users\\Ralileo\\AppData\\Roaming\\r2modmanPlus-local\\RiskOfRain2\\profiles\\LOLMODTEST\\BepInEx\\core\\BepInEx.Preloader.dll",
+      "workingDirectory": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Risk of Rain 2"
+    }
+  }
+}

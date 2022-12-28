@@ -23,9 +23,9 @@ namespace RoRLoL.Items
 
         public override ItemTier Tier => ItemTier.Tier1;
 
-        public override GameObject ItemModel => MainAssets.LoadAsset<GameObject>("trinity_force.prefab");
+        public override GameObject ItemModel => MainAssets.LoadAsset<GameObject>("Trinity_Force.prefab");
 
-        public override Sprite ItemIcon => MainAssets.LoadAsset<Sprite>("trinity_force.png");
+        public override Sprite ItemIcon => MainAssets.LoadAsset<Sprite>("Trinity_Force.png");
 
         public static GameObject ItemBodyModelPrefab;
 
@@ -44,6 +44,9 @@ namespace RoRLoL.Items
 
         public override ItemDisplayRuleDict CreateItemDisplayRules()
         {
+            return new ItemDisplayRuleDict();
+
+            /*ModLogger.Log(LogLevel.Error,"dadwadada");
             ItemBodyModelPrefab = ItemModel;
             var itemDisplay = ItemBodyModelPrefab.AddComponent<ItemDisplay>();
             itemDisplay.rendererInfos = ItemHelpers.ItemDisplaySetup(ItemBodyModelPrefab);
@@ -62,7 +65,7 @@ namespace RoRLoL.Items
                 }
             });
 
-            return rules;
+            return rules;*/
         }
 
         public override void Hooks()
